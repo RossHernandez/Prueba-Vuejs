@@ -121,7 +121,7 @@ export default {
                    this.src_actual = this.src_actual.split("?")[0]
               }
               else{
-                   this.src_actual = this.src_actual+"?blur=5"
+                   this.src_actual = this.src_actual+"?blur=10"
               }
           }
           this.obtenerImagenes();
